@@ -1,5 +1,5 @@
 # MicroservicesProject
-Microservices APIs for Open Innovation semester.
+Microservices APIs for Open Innovation semester. The Microservices will be based on [Bestel.app](https://bestel.app/), which I got permission for from Remco.
 
 ## Getting Started
 
