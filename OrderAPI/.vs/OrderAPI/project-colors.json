@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4be31658-186c-4304-9a04-4d4eac6920cb": {
+      "ProjectGuid": "4be31658-186c-4304-9a04-4d4eac6920cb",
+      "DisplayName": "OrderAPI",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "fffbacce-b766-4bfd-b3d1-1f902fbcd6cc": {
+      "ProjectGuid": "fffbacce-b766-4bfd-b3d1-1f902fbcd6cc",
+      "DisplayName": "docker-compose",
+      "ColorIndex": 1
+    },
+    "9933926a-fbf3-4b75-a79d-7235e2ef3347": {
+      "ProjectGuid": "9933926a-fbf3-4b75-a79d-7235e2ef3347",
+      "DisplayName": "docker-compose",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

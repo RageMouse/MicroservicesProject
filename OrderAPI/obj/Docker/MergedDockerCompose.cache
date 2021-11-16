@@ -1,0 +1,16 @@
+services:
+  orderapi:
+    build:
+      context: C:\Users\Dennis\source\repos\OrderAPI
+      dockerfile: OrderAPI/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: orderapi
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - C:\Users\Dennis\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\Dennis\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'
