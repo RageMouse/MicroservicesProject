@@ -13,3 +13,19 @@ What things you need to install the software and how to install them
 Docker Desktop
 Visual Studio or similar programs
 ```
+
+### What in the project?
+
+Every API has their own database, as per design.
+
+- OrdeAPI
+- PaymentAPI
+
+**- OrderAPI**
+
+This is where all orders come in, for example if you order a drink and some food.
+
+
+**- PaymentAPI**
+
+When you pay for your order, this is where the payment will go through.
