@@ -13,6 +13,15 @@ services:
     ports:
      - "1433:1433"
 
+  orderapi:
+    build:
+      context: ./OrderAPI
+      dockerfile: ./OrderAPI/Dockerfile
+    ports:
+    - "8008"
+    depends_on:
+      - order_db
+
   payment_db:
     image: "mcr.microsoft.com/mssql/server"
     volumes:
@@ -24,6 +33,15 @@ services:
       ACCEPT_EULA: "Y"
     ports:
      - "1434:1434"
+
+  paymentapi:
+    build:
+      context: ./PaymentAPI
+      dockerfile: ./PaymentAPI/Dockerfile
+    ports:
+    - "8009"
+    depends_on:
+      - paynment_db
 
 volumes:
   payment_volume:
